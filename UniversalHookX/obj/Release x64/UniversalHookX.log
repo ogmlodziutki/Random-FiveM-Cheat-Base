@@ -1,0 +1,156 @@
+﻿G:\VSC\IDE\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Katalog Output nie kończy się ukośnikiem. To wystąpienie kompilacji doda ukośnik, ponieważ jest on niezbędny, aby możliwa była poprawna ocena katalogu Output.
+G:\VSC\IDE\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: Katalog pośredni (.\obj\Release x64\) zawiera pliki udostępnione z innego projektu (Fentanyl.vcxproj, Flyside.vcxproj, UniversalHookX.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
+  font_a.cpp
+  console.cpp
+  custom.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx10.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_opengl3.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  dllmain.cpp
+  encryptfunction.hpp
+  vehicle.hpp
+  hook_directx11.cpp
+  hook_directx12.cpp
+  hook_directx9.cpp
+  hook_directx10.cpp
+  hook_opengl.cpp
+  hook_vulkan.cpp
+  hooks.cpp
+  menu.cpp
+  utils.cpp
+  imgui_impl_dx12.cpp
+  buffer.c
+  hde32.c
+  hde64.c
+  hook.c
+  trampoline.c
+imgui_draw.obj : warning LNK4006: element "bool settings::radar::enabled" (?enabled@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_draw.obj : warning LNK4006: element "bool settings::radar::enable2DRadar" (?enable2DRadar@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_draw.obj : warning LNK4006: element "int settings::visuals::colorsheme" (?colorsheme@visuals@settings@@3HA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_draw.obj : warning LNK4006: element "char * settings::visuals::hitsound_path" (?hitsound_path@visuals@settings@@3PADA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_draw.obj : warning LNK4006: element "float * settings::visuals::accent_color" (?accent_color@visuals@settings@@3PAMA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "bool settings::radar::enabled" (?enabled@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "bool settings::radar::enable2DRadar" (?enable2DRadar@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "int settings::visuals::colorsheme" (?colorsheme@visuals@settings@@3HA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "char * settings::visuals::hitsound_path" (?hitsound_path@visuals@settings@@3PADA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "float * settings::visuals::accent_color" (?accent_color@visuals@settings@@3PAMA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "bool settings::radar::enabled" (?enabled@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "bool settings::radar::enable2DRadar" (?enable2DRadar@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "int settings::visuals::colorsheme" (?colorsheme@visuals@settings@@3HA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "char * settings::visuals::hitsound_path" (?hitsound_path@visuals@settings@@3PADA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "float * settings::visuals::accent_color" (?accent_color@visuals@settings@@3PAMA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "void (__cdecl* addr::origscriptthread)(void)" (?origscriptthread@addr@@3P6AXXZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "unsigned __int64 addr::activethreadtls" (?activethreadtls@addr@@3_KA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "unsigned __int64 addr::dwThreadCollectionPtr" (?dwThreadCollectionPtr@addr@@3_KA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "bool addr::tlstest" (?tlstest@addr@@3_NA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "char const * (__cdecl* FiveM::getpname)(void *)" (?getpname@FiveM@@3P6APEBDPEAX@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "void (__cdecl* FiveM::disable_control)(int,int,bool)" (?disable_control@FiveM@@3P6AXHH_N@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "int (__cdecl* FiveM::pNetworkRequestControlOfEntity)(unsigned long)" (?pNetworkRequestControlOfEntity@FiveM@@3P6AHK@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "class std::vector<struct ImVec2,class std::allocator<struct ImVec2> > circles_pos" (?circles_pos@@3V?$vector@UImVec2@@V?$allocator@UImVec2@@@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "class std::vector<struct ImVec2,class std::allocator<struct ImVec2> > circles_dir" (?circles_dir@@3V?$vector@UImVec2@@V?$allocator@UImVec2@@@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "class std::vector<int,class std::allocator<int> > circles_radius" (?circles_radius@@3V?$vector@HV?$allocator@H@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void (__cdecl* addr::origscriptthread)(void)" (?origscriptthread@addr@@3P6AXXZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "unsigned __int64 addr::activethreadtls" (?activethreadtls@addr@@3_KA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "unsigned __int64 addr::dwThreadCollectionPtr" (?dwThreadCollectionPtr@addr@@3_KA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "bool addr::tlstest" (?tlstest@addr@@3_NA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "char const * (__cdecl* FiveM::getpname)(void *)" (?getpname@FiveM@@3P6APEBDPEAX@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void (__cdecl* FiveM::disable_control)(int,int,bool)" (?disable_control@FiveM@@3P6AXHH_N@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "int (__cdecl* FiveM::pNetworkRequestControlOfEntity)(unsigned long)" (?pNetworkRequestControlOfEntity@FiveM@@3P6AHK@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "bool settings::radar::enabled" (?enabled@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "bool settings::radar::enable2DRadar" (?enable2DRadar@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "int settings::visuals::colorsheme" (?colorsheme@visuals@settings@@3HA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "char * settings::visuals::hitsound_path" (?hitsound_path@visuals@settings@@3PADA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "float * settings::visuals::accent_color" (?accent_color@visuals@settings@@3PAMA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "class std::vector<struct ImVec2,class std::allocator<struct ImVec2> > circles_pos" (?circles_pos@@3V?$vector@UImVec2@@V?$allocator@UImVec2@@@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "class std::vector<struct ImVec2,class std::allocator<struct ImVec2> > circles_dir" (?circles_dir@@3V?$vector@UImVec2@@V?$allocator@UImVec2@@@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "class std::vector<int,class std::allocator<int> > circles_radius" (?circles_radius@@3V?$vector@HV?$allocator@H@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+C:\Users\almig\AppData\Local\FiveM\FiveM.app\plugins\d3d10.dll : warning LNK4088: obraz jest generowany ze względu na użycie opcji /FORCE; uruchomienie obrazu może nie być możliwe
+  Trwa generowanie kodu
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\admin\Downloads\keyauth-cpp-library-main(6)\keyauth-cpp-library-main\nlohmann\detail\iterators\iter_impl.hpp(304): warning C4715: "nlohmann::detail::iter_impl<nlohmann::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> > > >::operator->”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\admin\Downloads\keyauth-cpp-library-main(6)\keyauth-cpp-library-main\nlohmann\detail\iterators\iter_impl.hpp(270): warning C4715: "nlohmann::detail::iter_impl<nlohmann::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> > > >::operator*”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\admin\Downloads\keyauth-cpp-library-main(6)\keyauth-cpp-library-main\utils.cpp(15): warning C4715: "utils::get_hwid”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\admin\Downloads\keyauth-cpp-library-main(6)\keyauth-cpp-library-main\nlohmann\json.hpp(3691): warning C4715: "nlohmann::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> > >::operator[]<char const >”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\admin\Downloads\keyauth-cpp-library-main(6)\keyauth-cpp-library-main\nlohmann\json.hpp(3525): warning C4715: "nlohmann::basic_json<std::map,std::vector,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,bool,__int64,unsigned __int64,double,std::allocator,nlohmann::adl_serializer,std::vector<unsigned char,std::allocator<unsigned char> > >::operator[]”: niewszystkie ścieżki kodu zwracają wartość
+  All 1534 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Zakończono generowanie kodu
+imgui_draw.obj : warning LNK4006: element "struct ImColor __cdecl settings::visuals::get_accent_color(float)" (?get_accent_color@visuals@settings@@YA?AUImColor@@M@Z) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_draw.obj : warning LNK4006: element "bool settings::radar::enabled" (?enabled@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_draw.obj : warning LNK4006: element "bool settings::radar::enable2DRadar" (?enable2DRadar@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_draw.obj : warning LNK4006: element "int settings::visuals::colorsheme" (?colorsheme@visuals@settings@@3HA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_draw.obj : warning LNK4006: element "char * settings::visuals::hitsound_path" (?hitsound_path@visuals@settings@@3PADA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_draw.obj : warning LNK4006: element "float * settings::visuals::accent_color" (?accent_color@visuals@settings@@3PAMA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "struct ImColor __cdecl settings::visuals::get_accent_color(float)" (?get_accent_color@visuals@settings@@YA?AUImColor@@M@Z) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "bool settings::radar::enabled" (?enabled@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "bool settings::radar::enable2DRadar" (?enable2DRadar@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "int settings::visuals::colorsheme" (?colorsheme@visuals@settings@@3HA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "char * settings::visuals::hitsound_path" (?hitsound_path@visuals@settings@@3PADA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+imgui_widgets.obj : warning LNK4006: element "float * settings::visuals::accent_color" (?accent_color@visuals@settings@@3PAMA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "void __cdecl DrawBorder(float,float,float,float,float,struct ImColor)" (?DrawBorder@@YAXMMMMMUImColor@@@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "void __cdecl DrawOutlinedText(struct ImFont *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct ImVec2 const &,float,unsigned int,bool)" (?DrawOutlinedText@@YAXPEAUImFont@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUImVec2@@MI_N@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "void __cdecl FillRect(float,float,float,float,struct ImColor,int)" (?FillRect@@YAXMMMMUImColor@@H@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "unsigned __int64 __cdecl FiveM::GetCameraViewAngles(void)" (?GetCameraViewAngles@FiveM@@YA_KXZ) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "void __cdecl Rect(float,float,float,float,struct ImColor,int)" (?Rect@@YAXMMMMUImColor@@H@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "struct ImColor __cdecl settings::visuals::get_accent_color(float)" (?get_accent_color@visuals@settings@@YA?AUImColor@@M@Z) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl getversion(void)" (?getversion@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "void __cdecl transposeMatrix(struct Matrix &)" (?transposeMatrix@@YAXAEAUMatrix@@@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "bool settings::radar::enabled" (?enabled@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "bool settings::radar::enable2DRadar" (?enable2DRadar@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "int settings::visuals::colorsheme" (?colorsheme@visuals@settings@@3HA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "char * settings::visuals::hitsound_path" (?hitsound_path@visuals@settings@@3PADA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "float * settings::visuals::accent_color" (?accent_color@visuals@settings@@3PAMA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "void (__cdecl* addr::origscriptthread)(void)" (?origscriptthread@addr@@3P6AXXZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "unsigned __int64 addr::activethreadtls" (?activethreadtls@addr@@3_KA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "unsigned __int64 addr::dwThreadCollectionPtr" (?dwThreadCollectionPtr@addr@@3_KA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "bool addr::tlstest" (?tlstest@addr@@3_NA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "char const * (__cdecl* FiveM::getpname)(void *)" (?getpname@FiveM@@3P6APEBDPEAX@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "void (__cdecl* FiveM::disable_control)(int,int,bool)" (?disable_control@FiveM@@3P6AXHH_N@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+vehicle.obj : warning LNK4006: element "int (__cdecl* FiveM::pNetworkRequestControlOfEntity)(unsigned long)" (?pNetworkRequestControlOfEntity@FiveM@@3P6AHK@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "void __cdecl draw_circle(struct ImVec2,int,unsigned int)" (?draw_circle@@YAXUImVec2@@HI@Z) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "void __cdecl draw_circles_and_lines(unsigned int)" (?draw_circles_and_lines@@YAXI@Z) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "void __cdecl draw_line(struct ImVec2,struct ImVec2,unsigned int,int)" (?draw_line@@YAXUImVec2@@0IH@Z) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "void __cdecl move_circles(void)" (?move_circles@@YAXXZ) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "void __cdecl setup_circles(void)" (?setup_circles@@YAXXZ) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "class std::vector<struct ImVec2,class std::allocator<struct ImVec2> > circles_pos" (?circles_pos@@3V?$vector@UImVec2@@V?$allocator@UImVec2@@@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "class std::vector<struct ImVec2,class std::allocator<struct ImVec2> > circles_dir" (?circles_dir@@3V?$vector@UImVec2@@V?$allocator@UImVec2@@@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+hooks.obj : warning LNK4006: element "class std::vector<int,class std::allocator<int> > circles_radius" (?circles_radius@@3V?$vector@HV?$allocator@H@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl DrawBorder(float,float,float,float,float,struct ImColor)" (?DrawBorder@@YAXMMMMMUImColor@@@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl DrawOutlinedText(struct ImFont *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct ImVec2 const &,float,unsigned int,bool)" (?DrawOutlinedText@@YAXPEAUImFont@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUImVec2@@MI_N@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl FillRect(float,float,float,float,struct ImColor,int)" (?FillRect@@YAXMMMMUImColor@@H@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "unsigned __int64 __cdecl FiveM::GetCameraViewAngles(void)" (?GetCameraViewAngles@FiveM@@YA_KXZ) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl Rect(float,float,float,float,struct ImColor,int)" (?Rect@@YAXMMMMUImColor@@H@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl draw_circle(struct ImVec2,int,unsigned int)" (?draw_circle@@YAXUImVec2@@HI@Z) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl draw_circles_and_lines(unsigned int)" (?draw_circles_and_lines@@YAXI@Z) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl draw_line(struct ImVec2,struct ImVec2,unsigned int,int)" (?draw_line@@YAXUImVec2@@0IH@Z) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "struct ImColor __cdecl settings::visuals::get_accent_color(float)" (?get_accent_color@visuals@settings@@YA?AUImColor@@M@Z) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl getversion(void)" (?getversion@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl move_circles(void)" (?move_circles@@YAXXZ) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl setup_circles(void)" (?setup_circles@@YAXXZ) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl transposeMatrix(struct Matrix &)" (?transposeMatrix@@YAXAEAUMatrix@@@Z) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void __cdecl hook::vehicle(void)" (?vehicle@hook@@YAXXZ) jest już zdefiniowany w elemencie vehicle.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void (__cdecl* addr::origscriptthread)(void)" (?origscriptthread@addr@@3P6AXXZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "unsigned __int64 addr::activethreadtls" (?activethreadtls@addr@@3_KA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "unsigned __int64 addr::dwThreadCollectionPtr" (?dwThreadCollectionPtr@addr@@3_KA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "bool addr::tlstest" (?tlstest@addr@@3_NA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "char const * (__cdecl* FiveM::getpname)(void *)" (?getpname@FiveM@@3P6APEBDPEAX@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "void (__cdecl* FiveM::disable_control)(int,int,bool)" (?disable_control@FiveM@@3P6AXHH_N@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "int (__cdecl* FiveM::pNetworkRequestControlOfEntity)(unsigned long)" (?pNetworkRequestControlOfEntity@FiveM@@3P6AHK@ZEA) jest już zdefiniowany w elemencie dllmain.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "bool settings::radar::enabled" (?enabled@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "bool settings::radar::enable2DRadar" (?enable2DRadar@radar@settings@@3_NA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "int settings::visuals::colorsheme" (?colorsheme@visuals@settings@@3HA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "char * settings::visuals::hitsound_path" (?hitsound_path@visuals@settings@@3PADA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "float * settings::visuals::accent_color" (?accent_color@visuals@settings@@3PAMA) jest już zdefiniowany w elemencie custom.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "class std::vector<struct ImVec2,class std::allocator<struct ImVec2> > circles_pos" (?circles_pos@@3V?$vector@UImVec2@@V?$allocator@UImVec2@@@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "class std::vector<struct ImVec2,class std::allocator<struct ImVec2> > circles_dir" (?circles_dir@@3V?$vector@UImVec2@@V?$allocator@UImVec2@@@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+menu.obj : warning LNK4006: element "class std::vector<int,class std::allocator<int> > circles_radius" (?circles_radius@@3V?$vector@HV?$allocator@H@std@@@std@@A) jest już zdefiniowany w elemencie hook_directx11.obj; druga definicja została zignorowana
+library_x64.lib(auth.obj) : warning LNK4099: nie znaleziono pliku PDB „” z elementem „library_x64.lib(auth.obj)” lub w pozycji „”; obiekt zostanie skonsolidowany bez informacji debugowania
+library_x64.lib(utils.obj) : warning LNK4099: nie znaleziono pliku PDB „” z elementem „library_x64.lib(utils.obj)” lub w pozycji „”; obiekt zostanie skonsolidowany bez informacji debugowania
+C:\Users\almig\AppData\Local\FiveM\FiveM.app\plugins\d3d10.dll : warning LNK4088: obraz jest generowany ze względu na użycie opcji /FORCE; uruchomienie obrazu może nie być możliwe
+  UniversalHookX.vcxproj -> C:\Users\almig\AppData\Local\FiveM\FiveM.app\plugins\d3d10.dll

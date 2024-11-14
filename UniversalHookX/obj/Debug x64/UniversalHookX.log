@@ -1,0 +1,161 @@
+﻿  font_a.cpp
+  console.cpp
+  custom.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx10.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_opengl3.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  dllmain.cpp
+  encryptfunction.hpp
+  vehicle.hpp
+  hook_directx11.cpp
+  hook_directx12.cpp
+A:\Cheatki\kx-internal\UniversalHookX\src\dependencies\imgui\imgui_draw.cpp(36,10): error C1083: Nie można otworzyć pliku dołącz: 'C:\Users\impec\Desktop\SOurce v5\UniversalHookX//src\fivem\settings\settings.hpp': No such file or directory
+  hook_directx9.cpp
+  hook_directx10.cpp
+  hook_opengl.cpp
+  hook_vulkan.cpp
+  hooks.cpp
+  menu.cpp
+  utils.cpp
+A:\Cheatki\kx-internal\UniversalHookX\src\dependencies\imgui\imgui_widgets.cpp(45,10): error C1083: Nie można otworzyć pliku dołącz: 'C:\Users\impec\Desktop\SOurce v5\UniversalHookX//src\dependencies\imgui\custom.hpp': No such file or directory
+A:\Cheatki\kx-internal\UniversalHookX\src\fivem\settings\settings.hpp(2,9): warning C4005: "to_vec4": ponowna definicja makra
+  (kompilowanie pliku źródłowego „src/dependencies/imgui/custom.cpp”)
+      A:\Cheatki\kx-internal\UniversalHookX\src\dependencies\imgui\custom.hpp(24,9):
+      zobacz poprzednią definicję „to_vec4”
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\fivem\settings\settings.hpp(495,26): warning C4305: "inicjowanie": obcięcie z "int" do "bool"
+  (kompilowanie pliku źródłowego „src/dependencies/imgui/custom.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(25,44): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(30,20): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(54,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(55,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(76,24): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(77,24): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(81,34): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(86,34): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(99,28): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(121,61): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(121,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(122,71): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(122,47): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/backend/dx11/hook_directx11.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(25,44): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(30,20): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(54,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(55,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(76,24): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(77,24): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(81,34): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(86,34): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(99,28): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(121,61): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(121,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(122,71): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(122,47): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(25,44): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(30,20): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(54,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(55,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(76,24): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(77,24): warning C4244: "+=": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(81,34): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(86,34): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(99,28): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(121,61): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(121,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(122,71): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\menu\menu.hpp(122,47): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „src/hooks/hooks.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\fivem\content\classes.hpp(5,10): error C1083: Nie można otworzyć pliku dołącz: 'd3dx9.h': No such file or directory
+  (kompilowanie pliku źródłowego „src/dllmain.cpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\fivem\content\classes.hpp(5,10): error C1083: Nie można otworzyć pliku dołącz: 'd3dx9.h': No such file or directory
+  (kompilowanie pliku źródłowego „src/fivem/features/vehicle.hpp”)
+  
+A:\Cheatki\kx-internal\UniversalHookX\src\fivem\content\classes.hpp(5,10): error C1083: Nie można otworzyć pliku dołącz: 'd3dx9.h': No such file or directory
+  (kompilowanie pliku źródłowego „src/menu/menu.cpp”)
+  
